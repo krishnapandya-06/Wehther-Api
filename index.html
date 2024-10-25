@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="search-box">
+            <input type="text" id="city" placeholder="Enter city name">
+            <button id="searchBtn">Get Weather</button>
+        </div>
+        <div id="weather-result" class="weather-result">
+            <div class="weather-card">
+                <h2 id="city-name">City Name</h2>
+                <div class="weather-info">
+                    <div class="weather-box">
+                        <img src="" alt="Weather Icon" id="weather-icon" class="weather-icon">
+                        <p id="weather-description">Clear Sky</p>
+                    </div>
+                    <div class="weather-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#00c6ff" class="weather-svg" viewBox="0 0 24 24"><path d="M12 2c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10-4.477-10-10-10zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+                        <p><strong>Temperature:</strong> <span id="temperature">25°C</span></p>
+                    </div>
+                    <div class="weather-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#00c6ff" class="weather-svg" viewBox="0 0 24 24"><path d="M6 22h12v-2h-12v2zm12-4h-12l2-13h8l2 13zm-7-11h2v9h-2v-9z"/></svg>
+                        <p><strong>Humidity:</strong> <span id="humidity">60%</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="index.js"></script> <!-- Make sure this path is correct -->
+</body>
+</html>
+
+</html>
